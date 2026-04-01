@@ -203,7 +203,7 @@ mvn clean package
 
 <div align="center">
 
-**by [ckanto](https://github.com/ckanto)**
+**by [ckanto](https://github.com/ToxitAnto/)**
 
 *CkantoCore — Essenziale. Leggero. Tuo.*
 
