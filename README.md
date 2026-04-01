@@ -1,4 +1,4 @@
-# ⚡ CkantoCore
+
 
 <div align="center">
 
@@ -203,7 +203,7 @@ mvn clean package
 
 <div align="center">
 
-**Sviluppato con ♦ da [ckanto](https://github.com/ckanto)**
+**by [ckanto](https://github.com/ckanto)**
 
 *CkantoCore — Essenziale. Leggero. Tuo.*
 
