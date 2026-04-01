@@ -1,0 +1,45 @@
+prefix: '&8[&bCkanto&8] &r'
+
+messages:
+  no-permission: '&cNon hai il permesso per questo comando.'
+  player-only: '&cQuesto comando è solo per i giocatori.'
+  player-not-found: '&cGiocatore &e{player} &cnon trovato.'
+
+fly:
+  enabled-self: '&aVolo &2abilitato&a.'
+  disabled-self: '&cVolo &4disabilitato&c.'
+  enabled-other: '&aVolo abilitato per &2{player}&a.'
+  disabled-other: '&cVolo disabilitato per &4{player}&c.'
+
+flyspeed:
+  set-self: '&aVelocità di volo impostata a &2{speed}&a.'
+  set-other: '&aVelocità di volo di &2{player} &aimpostata a &2{speed}&a.'
+  invalid: '&cVelocità non valida. Usa un numero tra &e1 &ce &e10&c.'
+
+gamemode:
+  set-self: '&aModalità di gioco impostata a &2{mode}&a.'
+  set-other: '&aModalità di gioco di &2{player} &aimpostata a &2{mode}&a.'
+
+tpto:
+  teleported: '&aTeleportato da &2{from} &aa &2{to}&a.'
+  usage: '&cUso: /tpto <giocatore>'
+
+warp:
+  teleported: '&aTeleportato al warp &2{warp}&a.'
+  set: '&aWarp &2{warp} &acreato.'
+  deleted: '&aWarp &2{warp} &aeliminato.'
+  not-found: '&cWarp &e{warp} &cnon trovato.'
+  list-header: '&8&m-----&r &bWarps &8&m-----'
+  list-empty: '&cNessun warp disponibile.'
+  already-exists: '&cWarp &e{warp} &cesiste già.'
+
+kit:
+  claimed: '&aKit &2{kit} &ariscattato.'
+  not-found: '&cKit &e{kit} &cnon trovato.'
+  cooldown: '&cDevi aspettare &e{time} &cper riscattare di nuovo &e{kit}&c.'
+  created: '&aKit &2{kit} &acreato.'
+  deleted: '&aKit &2{kit} &aeliminato.'
+  list-header: '&8&m-----&r &bKit &8&m-----'
+  list-empty: '&cNessun kit disponibile.'
+  no-inventory: '&cL&apos;inventario è vuoto, impossibile creare il kit.'
+  already-exists: '&cKit &e{kit} &cesiste già.'

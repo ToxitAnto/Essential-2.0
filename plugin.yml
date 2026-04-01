@@ -1,0 +1,96 @@
+name: CkantoCore
+version: '${project.version}'
+main: me.ckanto.core.CkantoCore
+api-version: '1.21'
+author: ckanto
+description: Essential plugin replacement - fly, speed, gamemode, spawn, warp, kit
+
+commands:
+  fly:
+    description: Toggle fly mode
+    usage: /fly [player]
+    permission: ckanto.fly
+  flyspeed:
+    description: Set fly speed
+    usage: /flyspeed <1-10> [player]
+    permission: ckanto.flyspeed
+  gmc:
+    description: Set gamemode creative
+    usage: /gmc [player]
+    permission: ckanto.gmc
+  gms:
+    description: Set gamemode survival
+    usage: /gms [player]
+    permission: ckanto.gms
+  gmsp:
+    description: Set gamemode spectator
+    usage: /gmsp [player]
+    permission: ckanto.gmsp
+  tpto:
+    description: Teleport to a player
+    usage: /tpto <player>
+    permission: ckanto.tpto
+  warp:
+    description: Teleport to a warp
+    usage: /warp <name|set|del|list>
+    permission: ckanto.warp
+  kit:
+    description: Claim a kit
+    usage: /kit <name|list|create|delete>
+    permission: ckanto.kit
+
+permissions:
+  ckanto.fly:
+    description: Allow fly toggle
+    default: op
+  ckanto.fly.others:
+    description: Toggle fly for others
+    default: op
+  ckanto.flyspeed:
+    description: Allow fly speed change
+    default: op
+  ckanto.flyspeed.others:
+    description: Change fly speed for others
+    default: op
+  ckanto.gmc:
+    description: Allow gamemode creative
+    default: op
+  ckanto.gmc.others:
+    description: Set creative for others
+    default: op
+  ckanto.gms:
+    description: Allow gamemode survival
+    default: op
+  ckanto.gms.others:
+    description: Set survival for others
+    default: op
+  ckanto.gmsp:
+    description: Allow gamemode spectator
+    default: op
+  ckanto.gmsp.others:
+    description: Set spectator for others
+    default: op
+  ckanto.tpto:
+    description: Teleport to players
+    default: op
+  ckanto.warp:
+    description: Use warps
+    default: true
+  ckanto.warp.set:
+    description: Set warps
+    default: op
+  ckanto.warp.del:
+    description: Delete warps
+    default: op
+  ckanto.kit:
+    description: Use kits
+    default: true
+  ckanto.kit.create:
+    description: Create kits
+    default: op
+  ckanto.kit.delete:
+    description: Delete kits
+    default: op
+  ckanto.kit.bypass:
+    description: Bypass kit cooldown
+    default: op
